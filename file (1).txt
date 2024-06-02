@@ -1,0 +1,6 @@
+list disk
+select disk 2
+create partition primary
+format fs=fat32 quick
+active
+assign
